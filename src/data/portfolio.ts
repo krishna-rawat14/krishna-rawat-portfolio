@@ -85,6 +85,36 @@ const DEFAULT_EXPERIENCE = [
       'Exploring business automation features such as AI-powered calling, voice-based ordering and automated payment reminders.',
     ],
   },
+
+  {
+     role: 'Machine learning Intern',
+    org: 'elevvo',
+    period: '20 oct 2026 - 03 nov 2026',
+    points: [
+      'Gain practical experience in machine learning through real-world, project-based tasks',
+      'Apply machine learning concepts to practical problems using relevant tools and techniques',
+      'Develop technical and analytical skills through hands-on projects',
+      'Learn from educational materials and personalized feedback',
+      'Strengthen problem-solving abilities and build a foundation for a career in AI and Machine Learning',
+      
+    ],
+  },
+
+  {
+     role: 'Python + Generative AI & LangChain Intern',
+    org: 'Datheon',
+    period: '19 oct 2026 - 19 nov 2026',
+    points: [
+      'Develop practical solutions using Python, Generative AI, and LangChain.',
+      'Work on project-based development tasks to strengthen software engineering skills',
+      'Build and publish projects on GitHub with clean, modular, and well-documented code',
+      'Explore real-world AI applications and software integration workflows',
+      'Track project progress and complete assigned tasks through the Datheon Student Workspace',
+      'Strengthen problem-solving, coding, and technical documentation skills',
+      
+    ],
+  },
+
   {
     role: 'IT and Finance Intern',
     org: 'Amirav Pharma Pvt. Ltd.',
@@ -97,6 +127,7 @@ const DEFAULT_EXPERIENCE = [
       'Supported administrative workflows and helped maintain efficient coordination between IT and finance activities.',
     ],
   },
+
   {
      role: 'Technology Job Simulation',
     org: 'Deloitte Australia',
@@ -137,21 +168,28 @@ const DEFAULT_CERTIFICATES: Certificate[]  = [
     'Professional Development'
   ],
   image: 'certificates/deloitte-certificate.png',
+  link: 'https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_697a4789c8ba3c834a1d1251_1792326866208_completion_certificate.pdf',
 },
   { name: 'Introduction to Software Engineering Job Simulation', issuer: 'Commonwealth Bank / Forage', year: 'October 2026', tags: ['Software engineering', 'Job simulation'], 
     image: 'certificates/software-engineering-certificate.png',
+    link: 'https://www.theforage.com/completion-certificates/2sNmYuurxgpFYawco/wJMjCSKFhuj97x6F3_2sNmYuurxgpFYawco_697a4789c8ba3c834a1d1251_1791884850953_completion_certificate.pdf',
   },
   { name: 'Java Bootcamp', issuer: 'LetsUpgrade', year: 'June 2026', tags: ['Java'],
     image: 'certificates/javabootcamp-certificate.jpg',
+    link: 'https://www.linkedin.com/in/krishna-rawat-95205a3a9/overlay/Certifications/885313892/treasury/?profileId=ACoAAGPabc4BsIBbfpvG0juTiBva7_VOMMBYJkw',
    },
   { name: 'C++ Bootcamp', issuer: 'LetsUpgrade', year: 'April 2026', tags: ['C++'],
     image: 'certificates/letsupgrade-certificate.jpg',
+    link: 'https://verify.letsupgrade.in/certificate/%20LUECPPAPR126185',
    },
   { name: 'SOAR – AI to be Aware', issuer: 'Microsoft', year: 'January 2026', tags: ['AI awareness'],
       image: 'certificates/microsoft-certificate.jpg',
+      link: 'https://www.linkedin.com/in/krishna-rawat-95205a3a9/overlay/Certifications/743280760/treasury/?profileId=ACoAAGPabc4BsIBbfpvG0juTiBva7_VOMMBYJkw',
+     
    },
   { name: 'Basics of JavaScript Programming', issuer: 'OpenWeaver', year: 'July 2023', tags: ['JavaScript'],
       image: 'certificates/openweaver-certificate.jpg',
+      link: 'https://www.linkedin.com/in/krishna-rawat-95205a3a9/overlay/Certifications/743098327/treasury/?profileId=ACoAAGPabc4BsIBbfpvG0juTiBva7_VOMMBYJkw',
    },
 ];
 
@@ -170,7 +208,7 @@ const DEFAULT_PROJECTS: Project[]  = [
     stack: ['React', 'TypeScript', 'Node.js', 'MongoDB'],
     pipeline: ['Requirements', 'UI design', 'Build', 'Local SEO'],
     outcome: null,
-    image: 'projects/indiandrugdistributors-projects.png'
+    image: 'projects/indiandrugdistributors-projects.png',
   },
   {
     title: 'Online Shopping System',
@@ -181,6 +219,9 @@ const DEFAULT_PROJECTS: Project[]  = [
     stack: ['Java', 'JSP', 'Servlets', 'Apache Tomcat', 'HTML', 'CSS', 'JavaScript'],
     pipeline: ['Browse', 'Servlets', 'JSP pages', 'Tomcat'],
     outcome: 'Completed as a university project and run locally on Apache Tomcat.',
+
+    image: 'projects/SHOPAPP-projects.png',
+    demo: 'https://shopapp-w5y5.onrender.com/',
   },
   {
     title: 'Personal AI/ML Developer Portfolio',
@@ -193,6 +234,8 @@ const DEFAULT_PROJECTS: Project[]  = [
     outcome: null,
 
     image: 'projects/portfolio-projects.png',
+    demo: 'https://krishna-rawat-portfolio-honc.vercel.app/',
+    
   },
 ];
 
